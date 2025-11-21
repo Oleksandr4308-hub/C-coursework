@@ -1,0 +1,9 @@
+﻿namespace DAL.Entities;
+public class Position
+{
+    public int Id { get; set; }
+    public string Title { get; set; } = "";
+    public decimal Salary { get; set; }
+    public int WorkHours { get; set; }
+    public Position() { }
+}
